@@ -1,0 +1,28 @@
+7!
+7*6*5*4*3*2*1 = 5040
+
+3!
+3*2*1 = 6
+
+factorials 7! == 7*6! == 7*6*5! == 7*6*5*4*3!
+
+
+factorial(int n)
+{
+	// as long as n is not 1
+
+	if (n == 1)
+	{
+		return n;
+	}	
+	return factorial(n-1);
+	
+	
+}
+
+* Factorials *
+
+Method		N	|	N - 1
+-------------------------------------
+		6	|	5
+Factorial	7	|	6
